@@ -1,0 +1,212 @@
+body{
+    margin: 0;                              /*убирает отступы от всех краев*/
+    background-image: url(https://altanschool.s3.eu-central-1.amazonaws.com/learns/1697021662483_headerpic.jpg); /*изображение фона*/
+    background-size: 100%;                  /*размер фона*/
+    background-position-y: -50px;           /*изображение чуть поднято наверх*/
+    background-attachment: fixed;           /*фиксация фона*/
+}
+
+header{
+    height: 100%;               /*высота*/
+    padding: 30px;          /*внутренний отступ*/
+    text-align: right;      /*текст выровнени влево*/
+    color: rgb(0, 0, 91); /*цвет текста*/
+    font-size: 25px;        /*размер текста*/
+}
+
+h1{
+    padding-top: 50px;  /*Дополнительный отступ заголовка*/
+    font-size: 80px;    /*размер заголовка*/
+    color:rgb(255, 255, 255);  /*цвет*/
+}
+
+main{
+    height: 1000px;   /*высота основной части*/
+    display: flex;
+}
+
+footer{
+    height: 100%;    /*высота*/
+    text-align: left;  /*текст выровннен влево*/
+    padding: 50px;   /*внутренний оступ*/
+    color: white;  /*цвет текста*/
+    font-size: 20px;  /*размер текста*/
+}
+
+.social{
+    list-style: none; /*убирает маркеры*/
+    display: flex; /*отображает в ряд*/
+    align-items: left; /*выравнивает иконки по центру внутри каждого пункта*/
+    justify-content: left; /*выравнивает все иконки по центру страницы*/
+    margin: 0;
+    padding: 0;
+}
+
+.social li {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.block1{
+    background-color: blueviolet;
+    height: 98%;
+    width: 20%;
+    padding: 10px;
+    font-size: 20px;
+}
+.block2{
+    background-color: aqua;
+    height: 98%;
+    width: 25%;
+    padding: 10px;
+    font-size: 20px;
+}
+.block3{
+    background-color: rgb(255, 0, 0);
+    height: 98%;
+    width: 25%;
+    padding: 10px;
+    font-size: 20px;
+}
+.block4{
+    background-color: rgb(251, 255, 0);
+    height: 99,9%;
+    width: 30%;
+    padding: 1px;
+    font-size: 20px;
+}
+.block1 li{
+    background-color: rgb(255, 255, 255);
+    line-height: 2em;
+    margin-top: 10px;
+    border-radius: 3em;
+    width: 60%;
+    padding-left: 10px;
+    height: 50px;
+    list-style-position: inside;
+    list-style-type: "\1F978";
+}
+.block2 li{
+    background-color: darkmagenta;
+    line-height: 2em;
+    margin-top: 10px;
+    border-radius: 3em;
+    width: 60%;
+    padding-left: 10px;
+    height: 50px;
+    list-style-position: inside;
+}
+.block3 li{
+    background-color: cyan;
+    line-height: 2em;
+    border-radius: 3em;
+    margin-top: 10px;
+    width: 60%;
+    padding-left: 10px;
+    height: 40px;
+    
+}
+.block4 li{
+    background-color: deeppink;
+    line-height: 2em;
+    margin-top: 10px;
+    border-radius: 3em;
+    width: 60%;
+    padding-left: 10px;
+    height: 40px;  
+}
+.nav ul{
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 0;
+    padding: 1px;
+    
+}
+.nav li{
+    list-style: none;
+    margin: 15px;
+    color: rgb(0, 217, 255);
+    padding: 10px;
+}
+.nav a{
+    text-decoration: none;
+}
+.nav a:hover{
+    background-color: rgba(13, 0, 255, 0.332);
+}
+.nav{
+    position: sticky;
+    top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav{
+    width: 25%;
+    height: 98%;
+    background-color: rgba(128, 255, 0, 0.4);
+}
+.right{
+    width: 90%;
+    height: 100%;
+    background-color: rgba(0, 0, 255, 0.175);
+    display: flex;
+}
+.social{
+    list-style: none; 
+    display: flex; 
+    align-items: left; 
+    justify-content: left; 
+    margin: 0;
+    padding: 0;
+}
+.social li {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.block5{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.btn1{
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 30px;
+    border: 5px solid plum;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: plum;
+}
+.btn1:active{
+    background-color: greenyellow;
+    border: none;
+}
+form{
+    width: 100%;
+    float: right;
+    display: flex;
+    height: 40px;
+    
+}
+
+input{
+    padding: 10px 20px;
+    border: 1px;
+    font-size: 20px;
+  
+}
+
+.search{
+    width: 100%;
+}
+
+.button{
+    width: 35%;
+    background-color: blue;
+    color: azure;
+}
+
+.button:hover{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(54, 89, 89);
+}
